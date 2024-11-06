@@ -1,0 +1,89 @@
+animations {
+  id: "player_forwards"
+  images {
+    image: "/graphics/characters/Chara1_forwards_anim_1.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_forwards_anim_2.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_forwards_anim_3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "player_backwards"
+  images {
+    image: "/graphics/characters/Chara1_backwards_anim_1.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_backwards_anim_2.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_backwards_anim_3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "player_left"
+  images {
+    image: "/graphics/characters/Chara1_left_anim_1.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_left_anim_2.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_left_anim_3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "player_right"
+  images {
+    image: "/graphics/characters/Chara1_right_anim1.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_right_anim_2.png"
+  }
+  images {
+    image: "/graphics/characters/Chara1_right_anim_3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+}
+animations {
+  id: "player_forwards_still"
+  images {
+    image: "/graphics/characters/Chara1_still_forwards.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 1
+}
+animations {
+  id: "player_backwards_still"
+  images {
+    image: "/graphics/characters/chara1_still_backwards.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 1
+}
+animations {
+  id: "player_right_still"
+  images {
+    image: "/graphics/characters/Chara1_still_right.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 1
+}
+animations {
+  id: "player_left_still"
+  images {
+    image: "/graphics/characters/Chara1_still_left.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 1
+}
+extrude_borders: 2

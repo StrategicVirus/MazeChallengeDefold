@@ -1,0 +1,55 @@
+script: "/main/gui/title.gui_script"
+textures {
+  name: "gui"
+  texture: "/main/atlas/gui.atlas"
+}
+nodes {
+  position {
+    x: 496.0
+    y: 496.0
+  }
+  scale {
+    x: 1.286868
+    y: 1.28561
+  }
+  type: TYPE_BOX
+  texture: "gui/gui background"
+  id: "title"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 496.0
+    y: 496.0
+  }
+  type: TYPE_BOX
+  texture: "gui/title screen gui"
+  id: "title_background"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 340.0
+    y: 256.0
+  }
+  type: TYPE_BOX
+  texture: "gui/play button"
+  id: "play_button"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 686.0
+    y: 256.0
+  }
+  type: TYPE_BOX
+  texture: "gui/load button"
+  id: "load_button"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT

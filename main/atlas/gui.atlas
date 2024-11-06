@@ -1,0 +1,13 @@
+images {
+  image: "/graphics/title screen gui.png"
+}
+images {
+  image: "/graphics/gui background.png"
+}
+images {
+  image: "/graphics/load button.png"
+}
+images {
+  image: "/graphics/play button.png"
+}
+extrude_borders: 2

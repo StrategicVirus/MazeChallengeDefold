@@ -1,0 +1,86 @@
+image: "/graphics/walls/32x32 walls.png"
+tile_width: 32
+tile_height: 32
+collision: "/graphics/walls/32x32 walls.png"
+convex_hulls {
+  index: 0
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 8
+  count: 8
+  collision_group: ""
+}
+convex_hulls {
+  index: 16
+  count: 6
+  collision_group: ""
+}
+convex_hulls {
+  index: 22
+  count: 6
+  collision_group: ""
+}
+convex_hulls {
+  index: 28
+  count: 6
+  collision_group: ""
+}
+convex_hulls {
+  index: 34
+  count: 6
+  collision_group: ""
+}
+convex_hulls {
+  index: 40
+  count: 5
+  collision_group: ""
+}
+convex_hulls {
+  index: 45
+  count: 5
+  collision_group: ""
+}
+convex_hulls {
+  index: 50
+  count: 5
+  collision_group: ""
+}
+convex_hulls {
+  index: 55
+  count: 5
+  collision_group: ""
+}
+convex_hulls {
+  index: 60
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 64
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 68
+  count: 4
+  collision_group: ""
+}
+convex_hulls {
+  index: 72
+  count: 4
+  collision_group: ""
+}
+collision_groups: "wall"
+animations {
+  id: "walls"
+  start_tile: 1
+  end_tile: 1
+}
+extrude_borders: 2
